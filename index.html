@@ -12,11 +12,11 @@
            Altere somente estes valores para mudar as cores do site.
            ========================================================= */
         :root {
-            --azul-escuro: #0b1f3a;
-            --azul: #145da0;
-            --azul-medio: #1f7acb;
-            --azul-claro: #dceeff;
-            --azul-fundo: #f4f8fc;
+            --cor-escuro: #323842;
+            --cor: #101112;
+            --cor-medio: #5b5c5e;
+            --cor-claro: #7d7d7d;
+            --cor-fundo: #dbdbdb;
             --branco: #ffffff;
             --texto: #1f2937;
             --borda: #c7d9ea;
@@ -37,11 +37,11 @@
             font-family: Arial, Helvetica, sans-serif;
             line-height: 1.7;
             color: var(--texto);
-            background: var(--azul-fundo);
+            background: var(--cor-fundo);
         }
 
         header {
-            background: linear-gradient(135deg, var(--azul-escuro), var(--azul));
+            background: linear-gradient(135deg, var(--cor-escuro), var(--cor));
             color: var(--branco);
             text-align: center;
             padding: 48px 20px;
@@ -78,7 +78,7 @@
 
         nav a {
             display: block;
-            color: var(--azul-escuro);
+            color: var(--cor-escuro);
             text-decoration: none;
             font-weight: bold;
             padding: 8px 16px;
@@ -86,8 +86,8 @@
         }
 
         nav a:hover {
-            background: var(--azul-claro);
-            color: var(--azul);
+            background: var(--cor-claro);
+            color: var(--cor);
         }
 
         main {
@@ -105,13 +105,13 @@
         }
 
         h2 {
-            color: var(--azul-escuro);
+            color: var(--cor-escuro);
             margin-bottom: 18px;
             font-size: 1.8rem;
         }
 
         h3 {
-            color: var(--azul);
+            color: var(--cor);
             margin: 24px 0 10px;
         }
 
@@ -128,8 +128,8 @@
         }
 
         .destaque {
-            background: var(--azul-claro);
-            border-left: 5px solid var(--azul-medio);
+            background: var(--cor-claro);
+            border-left: 5px solid var(--cor-medio);
             padding: 20px;
             border-radius: 8px;
             margin-top: 20px;
@@ -144,7 +144,7 @@
 
         figure {
             margin: 0;
-            background: var(--azul-fundo);
+            background: var(--cor-fundo);
             border: 1px solid var(--borda);
             border-radius: 10px;
             overflow: hidden;
@@ -160,11 +160,11 @@
         figcaption {
             padding: 12px 14px;
             font-size: 0.9rem;
-            color: var(--azul-escuro);
+            color: var(--cor-escuro);
         }
 
         footer {
-            background: var(--azul-escuro);
+            background: var(--cor-escuro);
             color: var(--branco);
             text-align: center;
             padding: 30px 20px;
